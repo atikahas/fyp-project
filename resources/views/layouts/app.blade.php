@@ -37,6 +37,8 @@
 
     <!-- Halfmoon -->
     <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon.min.css" rel="stylesheet" />
+    <!-- Bootstrap 3.3.7 -->
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
     <!-- Font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
     <!-- Roboto font (Used when Apple system fonts are not available) -->
@@ -110,6 +112,8 @@
                     </span>
                     Main App
                 </a>
+                <br />
+
                 <h5 class="sidebar-title">Permission Management</h5>
                 <div class="sidebar-divider"></div>
                 <a href="{{url('admin/permissions')}}" class="sidebar-link sidebar-link-with-icon @yield('permissions_list')">
@@ -125,6 +129,7 @@
                     Add New Permission
                 </a>
                 <br />
+
                 <h5 class="sidebar-title">Role Management</h5>
                 <div class="sidebar-divider"></div>
                 <a href="{{url('admin/roles')}}" class="sidebar-link sidebar-link-with-icon @yield('roles_list')">
