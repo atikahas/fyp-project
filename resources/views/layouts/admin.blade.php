@@ -59,7 +59,7 @@
 <body class=" with-custom-webkit-scrollbars with-custom-css-scrollbars" data-dm-shortcut-enabled="true" data-sidebar-shortcut-enabled="true">
 
     <!-- Page wrapper start -->
-    <div id="page-wrapper" class="page-wrapper with-navbar with-sidebar with-navbar-fixed-bottom" data-sidebar-type="overlayed-sm-and-down">
+    <div id="page-wrapper" class="page-wrapper with-navbar with-sidebar " data-sidebar-type="overlayed-sm-and-down">
 
         <!-- Sticky alerts -->
         <div class="sticky-alerts"></div>
@@ -194,7 +194,7 @@
         <!-- Content wrapper end -->
 
         <!-- Navbar fixed bottom start -->
-        <nav class="navbar navbar-fixed-bottom">
+        <!-- <nav class="navbar navbar-fixed-bottom">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
                     <a href="#" class="nav-link">
@@ -206,7 +206,7 @@
             <span class="navbar-text">
                 &copy; Copyright 2021, Laravel Admin 7
             </span>
-        </nav>
+        </nav> -->
         <!-- Navbar fixed bottom end -->
 
     </div>
